@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "path": "^0.12.7",
+    "scripts": "^0.1.0",
+    "validator": "^13.7.0"
+  },
+  "name": "recipeapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "build:deploy": "cross-env NODE_ENV=production webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshkumar88/Recipeapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshkumar88/Recipeapp/issues"
+  },
+  "homepage": "https://github.com/harshkumar88/Recipeapp#readme",
+  "description": ""
+}

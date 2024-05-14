@@ -1,0 +1,117 @@
+/* body{
+  background-image :linear-gradient(to bottom right, #ff9eaa 0% 65%, #e860ff 95% 100%);
+} */
+.card-design{
+     border-radius: 20px;
+}
+.card-border{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height:200px
+}
+.mini-logo{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  position:relative;
+  top:-50px;
+  transition: all 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.mini-logo:hover{
+  transform:Scale(1.3);
+}
+.para{
+  position: relative;
+  top:-40px;
+  font-family: 'Montserrat'; 
+  font-weight: bold;
+  font-size: 13px;
+}
+.fixednav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 2;
+  
+}
+
+.inline{
+  display: inline-block;
+}
+.small{
+  width: 100px;
+  border-radius: 20px;
+}
+
+.body{
+  margin: 0px;
+  padding: 0px
+}
+
+.flexcalo{
+  font-family:'Montserrat';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width:100%;
+  position: relative;
+  bottom:40px;
+  /* left:25px; */
+}
+.heading{
+  font-weight: bold;
+  color:#1c9eff;
+}
+.fav{
+  position: relative;
+  top: -30px;
+  width:80% !important;
+  border-radius:30px ;
+  transition:background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28)
+}
+.fav:hover{
+  background-color :#efb10a;
+  transform:scale(1.1)
+}
+.fav:active{
+  background-color:"#e8a200";
+  transform:scale(1)
+}
+.onhover {
+  transition: .5s ease;
+  }
+  
+  .onhover:hover{
+  box-shadow: #efb10a 0px 10px 15px;
+  transition: .5s ease;
+  scale:1.05;
+  }
+
+
+.favourite{
+  position: fixed;
+  z-index: 3;
+  right: 70px;
+  top:85vh;
+  width: 70px;
+  font-size: 60px;
+  color: red;
+  
+  
+}
+.relative{
+  margin-left: -30px;
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+.loader{
+  background-image: url("https://cdn.dribbble.com/users/255512/screenshots/2215917/animation.gif");
+   background-size: 100%;
+}
+
+input{
+  outline: 0 !important; 
+}

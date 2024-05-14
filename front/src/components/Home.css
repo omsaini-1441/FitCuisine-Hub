@@ -1,0 +1,78 @@
+.fontSize70{
+font-size: 4vw
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+    padding: 0px
+}
+
+.BorderRadius{
+    border-radius: 20px;
+}
+.Bgcolor{
+    background-color:white;
+}
+
+.displayinline{
+    display: inline-block;
+}
+.highlight{
+    border:"2px solid yellow"
+}
+.fontsmall{
+    font-size: 20px;
+}
+.font-sans{
+    font-family: 'Expletus Sans', cursive;
+    font-weight: bold;
+}
+.gradient{
+    background-image:linear-gradient("#FFD700","#FFC72C");
+}
+.anchor{
+  color:black;
+  font-weight: 450;
+}
+
+.button1{
+    width:100px;
+    text-align:left;
+    border-radius: 50px;
+    border:0.1px solid rgb(141, 154, 169);
+    color:black;
+    padding:auto;
+    height:40px;
+    
+    }
+    .button1:hover{
+      background-color:#FFD700;
+    /* border:0px */
+    
+    }
+    .mybutton{
+        width:150px;
+        text-align:left;
+        border-radius: 50px;
+        border:0.1px solid rgb(198 205 213);
+        color:black;
+        padding:auto;
+        height:40px;
+    }
+    
+   
+.flex-b{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+
+}
+.width-300{
+    width: 800px;
+}
+.img{
+    background-image: url("https://images.pexels.com/photos/2792186/pexels-photo-2792186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
